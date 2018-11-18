@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text = "Kết nối thiết bị mới"
+            android:background="@drawable/rounded_corner_button"
+            android:layout_width="0px"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@drawable/rounded_corner_button"
+            android:text="Danh sách thiết bị" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="0px"
+            android:background="@drawable/rounded_corner_button"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="Reserved" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:background="@drawable/rounded_corner_button"
+            android:layout_weight="0.5"
+            android:text="Reserved"/>
+
+    </LinearLayout>
+
+</LinearLayout>

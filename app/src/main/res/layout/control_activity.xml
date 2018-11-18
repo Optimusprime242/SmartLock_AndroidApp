@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/open"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corner_button"
+            android:onClick="Open"
+            android:text="@string/open"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/status1"
+            android:layout_weight="2"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/close"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="Close"
+            android:background="@drawable/rounded_corner_button"
+            android:text="@string/close" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/status2"
+            android:layout_weight="2"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
